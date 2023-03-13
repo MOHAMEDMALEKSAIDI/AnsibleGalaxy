@@ -1,0 +1,6 @@
+- name: Afficher Hello
+  hosts: localhost
+  tasks:
+    - name: Afficher le message "Hello"
+      debug:
+        msg: "Hello"
