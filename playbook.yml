@@ -25,6 +25,4 @@
     - name: install ubuntu2
       debug:
         msg: "success"
-    - name: install ubuntu3 
-      debug:
-        msg: success 
+    
