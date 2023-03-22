@@ -1,25 +1,17 @@
-- name: Exemple de playbook avec trois tâches
-  hosts: 127.0.0.1
+---
+- name: Exemple de playbook avec 3 tâches
+  hosts: localhost
+  gather_facts: no
+  
   tasks:
-    - name: install git 
+    - name: Tâche 1 - Afficher un message de bienvenue
       debug:
-        msg: "success"
-    - name: install scm 
+        msg: "Bonjour, bienvenue dans ce playbook"
+    
+    - name: Tâche 2 - Afficher un message de présentation
       debug:
-        msg: "success"
-    - name: install nano 
+        msg: "Je suis une tâche de ce playbook"
+    
+    - name: Tâche 3 - Afficher un message de remerciement
       debug:
-        msg: "success"
-    - name: install update 
-      debug:
-        msg: "success"
-    - name: install vi 
-      debug:
-        msg: "Hello 2"
-    - name: install vim 
-      debug:
-        msg: "success"
-     - name: install reloaded 
-      debug:
-        msg: "success"
-   
+        msg: "Merci d'avoir exécuté ce playbook"
