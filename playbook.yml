@@ -16,3 +16,15 @@
     - name: install vi 
       debug:
         msg: "Hello 2"
+    - name: install vim 
+      debug:
+        msg: "success"
+     - name: install reloaded 
+      debug:
+        msg: "success"
+    - name: install ubuntu2
+      debug:
+        msg: "success"
+    - name: install ubuntu3 
+      debug:
+        msg: success 
