@@ -22,7 +22,4 @@
      - name: install reloaded 
       debug:
         msg: "success"
-    - name: install ubuntu2
-      debug:
-        msg: "success"
-    
+   
