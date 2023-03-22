@@ -1,6 +1,30 @@
-- name: Afficher Hello
-  hosts: localhost
+- name: Exemple de playbook avec trois tâches
+  hosts: 127.0.0.1
   tasks:
-    - name: Afficher le message "Hello"
+    - name: install git 
       debug:
-        msg: "Hello"
+        msg: "success"
+    - name: install scm 
+      debug:
+        msg: "success"
+    - name: install nano 
+      debug:
+        msg: "success"
+    - name: install update 
+      debug:
+        msg: "success"
+    - name: install vi 
+      debug:
+        msg: "Hello 2"
+    - name: install vim 
+      debug:
+        msg: "success"
+     - name: install reloaded 
+      debug:
+        msg: "success"
+    - name: install ubuntu2
+      debug:
+        msg: "success"
+    - name: install ubuntu3 
+      debug:
+        msg: success 
